@@ -368,6 +368,6 @@ p{
 #slideHome{
   position: relative;
 }
-.top-videos-list .views-row{
+.top-videos-list .views-row, .videos-list .views-row{
   vertical-align: top;
 }
