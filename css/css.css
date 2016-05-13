@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
+p{
+  font-size: 14px;
+}
+
 .main-menu{
   border-bottom: gray 2px solid
 }
