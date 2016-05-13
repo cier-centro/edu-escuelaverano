@@ -241,7 +241,7 @@ p{
 
 .right-menu img{
 	position: absolute;
-    margin-left: -27px;
+  /*margin-left: -27px;*/
 }
 
 .right-menu #escuela{
