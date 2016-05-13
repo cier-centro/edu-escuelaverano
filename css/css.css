@@ -226,7 +226,7 @@ p{
 	background-color: #5AC2E7;
 	color: white;
 	padding: 10px;
-	padding-left: 30px;
+	/*padding-left: 30px;*/
 	margin-bottom: 10px !important;
 	cursor:pointer;
 }
@@ -342,16 +342,11 @@ p{
    color: transparent;
 }
 
- #icoIngresar{
-   bottom: 130px !important;
-}
-
-#icoEscuela{
-   bottom: 75px !important;
-}
-
-#icoVideo{
-   bottom: 17px !important;
+#icoIngresar, #icoEscuela, #icoVideo{
+   position: inherit;
+   float: left;
+   margin-right: 5px;
+   display: inline-block;
 }
 
 .eiv-panel table.tableizer-table {
