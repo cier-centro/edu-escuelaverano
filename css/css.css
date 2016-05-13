@@ -1,0 +1,371 @@
+@charset "UTF-8";
+/* CSS Document */
+.main-menu{
+  border-bottom: gray 2px solid
+}
+
+.main-menu h2{
+	font-size: 120%;
+}
+
+.main-menu .views-row{
+	display: inline-block;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+
+}
+
+.main-menu .views-row  a{
+  color: #88888A;
+  font-weight: 500;
+}
+
+.main-menu .views-row  a:hover{
+  color: #FF8E00;
+}
+
+.pane-escuela-de-verano-panel-pane-6{
+	margin-left: 0;
+	margin-right: 0;
+	width: 77% !important;
+}
+
+.resumen-Slide{
+	position: absolute;
+  bottom: 40%;
+  margin: 5%;
+
+}
+
+.resumen-Slide p{
+	color: white;
+  font-size: initial;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.48);
+  border-radius: 10px;
+}
+
+.ver-mas-slide{
+	position: absolute;
+    bottom: 23%;
+    color: white;
+    left: 7%;
+    border: solid;
+    padding: 0.55% 3.5%;
+}
+
+.caption-verano{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+	position: absolute;
+	bottom: 1%;
+	padding: 3px;
+	width: 90%;
+	font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.56);
+  padding: 10px;
+}
+
+.caption-verano a{
+	color: white;
+}
+
+.imagen-slider-ver-noticia{
+	position: absolute;
+  bottom: -2px;
+  right: 0;
+}
+
+.imagen-slider-ver-noticia img{
+  height: 56px;
+}
+
+.bloque2{
+	display: block;
+}
+
+.pane-escuela-de-verano-panel-pane-3{
+	float:right;
+	margin-left: 0;
+	margin-right: 0;
+	width: 20% !important;
+}
+
+.pane-escuela-de-verano-panel-pane-11{
+	float:right;
+	top: 100px;
+	margin-left: 0;
+	margin-right: 0;
+	width: 20% !important;
+}
+
+.pane-escuela-de-verano-panel-pane-5{
+	margin-left: 0;
+	margin-right: 0;
+	width: 77% !important;
+}
+
+.pane-escuela-de-verano-panel-pane-4{
+	margin-left: 0;
+	margin-right: 0;
+	width: 77% !important;
+}
+
+.eiv-panel .title, .eiv-panel .title, .eiv-panel .bookmark, .eiv-panel .author_info, .eiv-panel .info{
+	display: none;
+}
+
+.eiv-panel h1{
+		padding: 10px;
+}
+
+.eiv-panel h1{
+		color: #2082B1;
+}
+
+.eiv-panel h4{
+		color: #908F94;
+}
+
+.eiv-panel ol, .eiv-panel  ul{
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+.eiv-panel li{
+	list-style: inherit;
+}
+
+.top-videos-list .view-header{
+	background-color: #FE8D00;
+}
+
+.videos-list .view-header img, .top-videos-list .view-header img{
+    display: inline-block;
+    position: absolute;
+    padding-top: 5px;
+    width: 30px;
+}
+
+.videos-list .view-header h4, .top-videos-list .view-header h4{
+	display: inline-block;
+	color: white;
+	padding-left: 30px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.videos-list .view-header{
+	background-color: #5AC2E7;
+}
+
+.top-videos-list, .videos-list{
+	width: 77% !important;
+}
+
+.top-videos-list .views-row, .videos-list .views-row{
+	display: inline-block;
+	margin-top: 15px;
+	padding: 1%;
+	width: 30% !important;
+
+}
+
+.top-videos-list .views-row:not(:last-child), .videos-list .views-row:not(:nth-child(3n)), .pane-escuela-de-verano-panel-pane-7 .views-row:not(:last-child), .pane-escuela-de-verano-panel-pane-8 .views-row:not(:last-child){
+	border-right: 1px solid #AEAEAE;
+}
+
+.top-videos-list .views-field-title , .videos-list .views-field-title {
+	display: none;
+}
+
+.top-videos-list .field-content h3, .videos-list .field-content h3{
+    color: #555459;
+    font-weight: 600;
+}
+
+.top-videos-list .field-content p, .videos-list .field-content p{
+    color: #8E8E8E;
+}
+
+.right-menu{
+  position: absolute;
+	right: 10px;
+	top: 220px;
+}
+
+.right-menu-videos{
+  position: absolute;
+	right: 10px;
+	top: 380px;
+}
+
+.right-menu-videos .view-header{
+  display: none;
+}
+
+.right-menu-videos .views-field-title  {
+	display: none;
+}
+
+.right-menu-videos .field-content p:not(:first-child)  {
+	display: none;
+}
+
+.right-menu-videos .field-content h3{
+	display: none;
+}
+
+.right-menu p{
+	background-color: #5AC2E7;
+	color: white;
+	padding: 10px;
+	padding-left: 30px;
+	margin-bottom: 10px !important;
+	cursor:pointer;
+}
+
+.right-menu a{
+	color: white;
+}
+
+.right-menu p:hover{
+	background-color: #5398B1;
+}
+
+.right-menu img{
+	position: absolute;
+    margin-left: -27px;
+}
+
+.right-menu #escuela{
+	margin-top: 7px;
+}
+
+@media (max-width: 821px) {
+	.right-menu-videos{
+		top: 420px;
+	}
+}
+
+@media (max-width: 700px) {
+	.right-menu-videos{
+		top: 450px;
+	}
+}
+
+@media (max-width: 610px) {
+	.right-menu-videos{
+		top: 470px;
+	}
+}
+
+.pane-escuela-de-verano-panel-pane-5 .eiv-panel h3, b{
+		color: #00ABFF !important;
+}
+
+.pane-escuela-de-verano-panel-pane-7, .pane-escuela-de-verano-panel-pane-8{
+	margin-left: 0;
+	margin-right: 0;
+	width: 77% !important;
+}
+
+.pane-escuela-de-verano-panel-pane-7 img, .pane-escuela-de-verano-panel-pane-8 img{
+	padding-left: 8px;
+	width: 200px;
+	height: 200px;
+  border-radius: 50%;
+}
+
+.pane-escuela-de-verano-panel-pane-7 .view-header h4, .pane-escuela-de-verano-panel-pane-8 .view-header h4{
+	color: white;
+	padding: 5px;
+	padding-left: 30px;
+    font-weight: 500;
+}
+
+.pane-escuela-de-verano-panel-pane-7 .view-header, .pane-escuela-de-verano-panel-pane-8 .view-header{
+	background-color: #5AC2E7;
+}
+
+.pane-escuela-de-verano-panel-pane-7 .views-row, .pane-escuela-de-verano-panel-pane-8 .views-row{
+	display: inline-block;
+	margin-top: 15px;
+	padding: 1%;
+	width: 30% !important;
+}
+
+.pane-escuela-de-verano-panel-pane-7 .field-content h3, .pane-escuela-de-verano-panel-pane-8 .field-content h3{
+    color: #555459;
+    font-weight: 600;
+}
+
+.pane-escuela-de-verano-panel-pane-7 .field-content p, .pane-escuela-de-verano-panel-pane-8 .field-content p{
+    color: #8E8E8E;
+}
+
+.top-videos-list .view-header h4:before{
+
+}
+
+.view-escuela-de-verano .views-slideshow-controls-bottom{
+    top: 40%;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+.view-escuela-de-verano .views-slideshow-controls-bottom #views_slideshow_controls_text_previous_escuela_de_verano-panel_pane_6{
+   float: left;
+   width: 40px;
+   height: 60px;
+   background: url('https://dl.dropboxusercontent.com/s/y7mn40vukn3thmj/arow-back.png') no-repeat;
+}
+
+.view-escuela-de-verano .views-slideshow-controls-bottom #views_slideshow_controls_text_pause_escuela_de_verano-panel_pane_6{
+   display: none;
+}
+
+.view-escuela-de-verano .views-slideshow-controls-bottom #views_slideshow_controls_text_next_escuela_de_verano-panel_pane_6{
+   float: right;
+   width: 31px;
+   height: 60px;
+   background: url('https://dl.dropboxusercontent.com/s/lfxrebsg7ig4tfs/arow-next.png') no-repeat;
+}
+
+.view-escuela-de-verano .views-slideshow-controls-bottom #views_slideshow_controls_text_next_escuela_de_verano-panel_pane_6 a, .view-escuela-de-verano .views-slideshow-controls-bottom #views_slideshow_controls_text_previous_escuela_de_verano-panel_pane_6 a{
+   color: transparent;
+}
+
+ #icoIngresar{
+   bottom: 130px !important;
+}
+
+#icoEscuela{
+   bottom: 75px !important;
+}
+
+#icoVideo{
+   bottom: 17px !important;
+}
+
+.eiv-panel table.tableizer-table {
+		font-size: 12px;
+		border: 1px solid #CCC;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+.eiv-panel 	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+.eiv-panel 	.tableizer-table th {
+		background-color: #1B8DC1;
+		color: #FFF;
+		font-weight: bold;
+    text-shadow: none;
+	}
+#slideHome{
+  position: relative;
+}
