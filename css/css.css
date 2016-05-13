@@ -177,7 +177,7 @@ p{
 
 }
 
-.top-videos-list .views-row:not(:last-child), .videos-list .views-row:not(:nth-child(3n)), .pane-escuela-de-verano-panel-pane-7 .views-row:not(:last-child), .pane-escuela-de-verano-panel-pane-8 .views-row:not(:last-child){
+.top-videos-list .views-row:not(:last-child), .videos-list .views-row:not(:nth-child(3n)), .nationalTeacher .views-row:not(:last-child), .internationalTeacher .views-row:not(:last-child){
 	border-right: 1px solid #AEAEAE;
 }
 
@@ -270,43 +270,43 @@ p{
 		color: #00ABFF !important;
 }
 
-.pane-escuela-de-verano-panel-pane-7, .pane-escuela-de-verano-panel-pane-8{
+.nationalTeacher, .internationalTeacher{
 	margin-left: 0;
 	margin-right: 0;
 	width: 77% !important;
 }
 
-.pane-escuela-de-verano-panel-pane-7 img, .pane-escuela-de-verano-panel-pane-8 img{
+.nationalTeacher img, .internationalTeacher img{
 	padding-left: 8px;
 	width: 90%;
 	height: 90%;
   border-radius: 50%;
 }
 
-.pane-escuela-de-verano-panel-pane-7 .view-header h4, .pane-escuela-de-verano-panel-pane-8 .view-header h4{
+.nationalTeacher .view-header h4, .internationalTeacher .view-header h4{
 	color: white;
 	padding: 5px;
 	padding-left: 30px;
     font-weight: 500;
 }
 
-.pane-escuela-de-verano-panel-pane-7 .view-header, .pane-escuela-de-verano-panel-pane-8 .view-header{
+.nationalTeacher .view-header, .internationalTeacher .view-header{
 	background-color: #5AC2E7;
 }
 
-.pane-escuela-de-verano-panel-pane-7 .views-row, .pane-escuela-de-verano-panel-pane-8 .views-row{
+.nationalTeacher .views-row, .internationalTeacher .views-row{
 	display: inline-block;
 	margin-top: 15px;
 	padding: 1%;
 	width: 30% !important;
 }
 
-.pane-escuela-de-verano-panel-pane-7 .field-content h3, .pane-escuela-de-verano-panel-pane-8 .field-content h3{
+.nationalTeacher .field-content h3, .internationalTeacher .field-content h3{
     color: #555459;
     font-weight: 600;
 }
 
-.pane-escuela-de-verano-panel-pane-7 .field-content p, .pane-escuela-de-verano-panel-pane-8 .field-content p{
+.nationalTeacher .field-content p, .internationalTeacher .field-content p{
     color: #8E8E8E;
 }
 
@@ -368,6 +368,6 @@ p{
 #slideHome{
   position: relative;
 }
-.top-videos-list .views-row, .videos-list .views-row{
+.top-videos-list .views-row, .videos-list .views-row, .internationalTeacher .views-row, .nationalTeacher .views-row{
   vertical-align: top;
 }
