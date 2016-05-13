@@ -357,7 +357,7 @@ p{
 .eiv-panel 	.tableizer-table td {
 		padding: 4px;
 		margin: 3px;
-		border: 1px solid #CCC;
+		border-bottom: 1px solid #CCC;
 	}
 .eiv-panel 	.tableizer-table th {
 		background-color: #1B8DC1;
