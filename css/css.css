@@ -335,7 +335,7 @@ p{
    float: right;
    width: 31px;
    height: 60px;
-   background: url('https://dl.dropboxusercontent.com/s/lfxrebsg7ig4tfs/arow-next.png') no-repeat;
+   background: url('../images/arow-next.png') no-repeat;
 }
 
 .view-escuela-de-verano .views-slideshow-controls-bottom #views_slideshow_controls_text_next_escuela_de_verano-panel_pane_6 a, .view-escuela-de-verano .views-slideshow-controls-bottom #views_slideshow_controls_text_previous_escuela_de_verano-panel_pane_6 a{
